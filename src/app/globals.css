@@ -1,8 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&display=swap');
+
 @import "tailwindcss";
+
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+
+@theme {
+  --color-black: #200B08;
+  --color-white: #F6ECEB;
+  --color-highlight: #DA7668;
 }
 
 @theme inline {
@@ -10,6 +21,9 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-playfair: var(--font-playfair);
+  --font-body: var(--font-roboto); 
+
 }
 
 @media (prefers-color-scheme: dark) {
