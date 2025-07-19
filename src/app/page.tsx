@@ -32,11 +32,11 @@ export default function Home() {
       <main className="grid grid-cols-12 flex-1 overflow-y-scroll grow">
         <div className="col-span-3"></div>
         <div className="col-span-5 h-full flex flex-col justify-center">
-          <h1 className="pb-[24px] text-3xl">Hi, I'm <span className="font-playfair text-highlight font-bold">Gonçalo Cantante</span>!</h1>
+          <h1 className="pb-[24px] text-3xl">Hi, I&apos;m <span className="font-playfair text-highlight font-bold">Gonçalo Cantante</span>!</h1>
           <div className="pr-[128px] pb-[40px] flex flex-col gap-1">
             <p>I build scalable, user-focused web applications using modern JS frameworks.</p>
             <p>Currently open to remote-first or hybrid teams building useful AI tools — especially where I can learn fast and contribute hands-on.</p>
-            <p>This site is the first of many. I'm sharing my progress publicly as I pivot into the world of applied AI.</p>
+            <p>This site is the first of many. I&apos;m sharing my progress publicly as I pivot into the world of applied AI.</p>
           </div>
           <Image
             src="/images/wavy-divider.svg"
