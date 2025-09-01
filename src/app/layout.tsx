@@ -33,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-dvh">
+    <html lang="en" className="h-dvh bg-black">
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${roboto.variable} ${playfairDislplay.variable} antialiased`}
       >
