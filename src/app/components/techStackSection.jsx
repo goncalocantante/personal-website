@@ -7,9 +7,9 @@ const imageStyle = {
 const TechStackSection = () => {
   return (
     <div className="grid grid-cols-12 mb-16">
-      <h2 className="col-start-4 col-span-6 subheading mb-6">Tech Stack</h2>
+      <h2 className="col-start-2 col-span-10 md:col-start-4 md:col-span-6 subheading mb-6">Tech Stack</h2>
       {/* Logos aligned wider, starting at col 2 */}
-      <div className="col-start-2 col-span-10 flex justify-between">
+      <div className="col-span-12 md:col-start-2 md:col-span-10 flex gap-4 md:gap-0 overflow-scroll md:justify-between ">
         <Image
           src="/images/skillsLogos/next.svg"
           alt="nextjs logo"

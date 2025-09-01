@@ -1,6 +1,6 @@
 const TimelineItem = ({ jobTitle, companyName, dates, jobDescription }) => {
   return (
-    <div className="col-start-4 col-span-6 flex flex-col items-start pb-10 relative">
+    <div className="col-start-2 col-span-10 md:col-start-4 md:col-span-6 flex flex-col items-start pb-10 relative">
       {/* Vertical line */}
       <div className="absolute top-1 left-1 w-[0.5px] h-full bg-white -translate-x-1/2"></div>
 

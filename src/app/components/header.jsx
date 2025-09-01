@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 w-full mx- h-16 z-50 bg-black flex justify-between px-10">
+    <header className="sticky top-0 left-0 w-full mx- h-16 z-50 bg-black flex justify-between">
         <Image
           src="/images/signature.svg"
           width={66}

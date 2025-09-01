@@ -21,7 +21,7 @@ const timelineItems = [
 const ExperienceSection = () => {
     return (
         <div className="grid grid-cols-12">
-            <h2 className="col-start-4 col-span-6 subheading mb-6">Experience</h2>
+            <h2 className="col-start-2 col-span-10 md:col-start-4 md:col-span-6 subheading mb-6">Experience</h2>
             {
                 timelineItems.map((item, id) => <TimelineItem key={`job-${id}`} jobTitle={item?.jobTitle} companyName={item?.companyName} dates={item?.dates} jobDescription={item?.jobDescription} />)
             }

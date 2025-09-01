@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const Hero = () => {
     return (
-        <section className="grid grid-cols-12 content-center min-h-dvh">
-            <div className="col-span-5 col-start-4">
+        <section className="grid grid-cols-12 content-center min-h-dvh md:pt-0 pt-4">
+            <div className="col-start-2 col-span-10 md:col-span-5 md:col-start-4">
                 <h1 className="pb-[24px] text-4xl">Hi, I&apos;m <span className="font-playfair text-highlight font-bold">Gonçalo Cantante</span>!</h1>
-                <div className="pr-[128px] pb-[40px] flex flex-col gap-1">
+                <div className="xl:pr-[128px] pb-[40px] flex flex-col gap-1">
                     <p>I build scalable, user-focused web applications using modern JS frameworks.</p>
                     <p>Currently open to remote-first or hybrid teams building useful AI tools — especially where I can learn fast and contribute hands-on.</p>
                     <p>This site is the first of many. I&apos;m sharing my progress publicly as I pivot into the world of applied AI.</p>
